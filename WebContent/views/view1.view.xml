@@ -1,0 +1,130 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m" controllerName="bookmycric.player.controllers.view1"
+	xmlns:html="http://www.w3.org/1999/xhtml" xmlns:f="sap.f" xmlns:l="sap.ui.layout">
+	<Page title="Title">
+		<customHeader>
+			<Bar>
+				<contentLeft>
+					<Button icon="sap-icon://home" />
+				</contentLeft>
+			</Bar>
+		</customHeader>
+		<content>
+			<l:BlockLayout>
+				<l:BlockLayoutRow>
+					<l:BlockLayoutCell width="60%">
+						<Image src="images/logo.png" width="100px" height="80px" />
+					</l:BlockLayoutCell>
+					<l:BlockLayoutCell width="15%">
+						<f:Avatar src="images/gouri.jpg" displayShape="Circle"
+							displaySize="L" />
+						<Text text="GOVARDHAN" />
+						<Text text="9704430993" />
+					</l:BlockLayoutCell>
+					<l:BlockLayoutCell width="15%">
+						<f:Avatar src="images/suresh.jpg" displayShape="Circle"
+							displaySize="L" />
+						<Text text="SURENDER" />
+						<Text text="9100084688" />
+					</l:BlockLayoutCell>
+				</l:BlockLayoutRow>
+
+				<l:BlockLayoutRow>
+					<l:BlockLayoutCell width="75%"
+						backgroundColorSet="ColorSet9" backgroundColorShade="ShadeA">
+						<l:BlockLayout>
+							<l:BlockLayoutRow >
+								<l:BlockLayoutCell>
+									<SearchField placeholder="Search by location" />
+								</l:BlockLayoutCell>
+								<l:BlockLayoutCell>
+									<SearchField placeholder="Search by position" />
+								</l:BlockLayoutCell>
+								<l:BlockLayoutCell>
+									<SegmentedButton>
+										<items>
+											<SegmentedButtonItem text="31 SAT" />
+											<SegmentedButtonItem text="01 SUN" />
+											<SegmentedButtonItem text="02 MON" />
+										</items>
+									</SegmentedButton>
+								</l:BlockLayoutCell>
+
+							</l:BlockLayoutRow>
+
+							<l:BlockLayoutRow class="row1">
+							
+								<l:BlockLayoutCell >
+									<Text text="PJR Stadium" />
+									<Text text=" Lingampally- Huda Colony Road, PJR Stadium Lane, Chanda Nagar, Hyderabad, Telangana 500050"/>
+								</l:BlockLayoutCell>
+								<l:BlockLayoutCell>
+									<SegmentedButton>
+										<items>
+											<SegmentedButtonItem text="9:00 AM" />
+											<SegmentedButtonItem text="12:00 PM" />
+											<SegmentedButtonItem text="03:00 PM" />
+										</items>
+									</SegmentedButton>
+								</l:BlockLayoutCell>
+
+							</l:BlockLayoutRow>
+
+							<l:BlockLayoutRow class="row1 sapUiSmallMarginTop">
+								<l:BlockLayoutCell >
+									<Text text="Ground and Address" />
+								</l:BlockLayoutCell>
+								<l:BlockLayoutCell>
+									<SegmentedButton>
+										<items>
+											<SegmentedButtonItem text="7:30 AM" />
+											<SegmentedButtonItem text="11:30 AM" />
+											<SegmentedButtonItem text="02:30 PM" />
+										</items>
+									</SegmentedButton>
+								</l:BlockLayoutCell>
+							</l:BlockLayoutRow>
+
+							<l:BlockLayoutRow class="row1 sapUiSmallMarginTop">
+								<l:BlockLayoutCell >
+									<Text text="Ground and Address" />
+								</l:BlockLayoutCell>
+								<l:BlockLayoutCell>
+									<SegmentedButton>
+										<items>
+											<SegmentedButtonItem text="7:30 AM" />
+											<SegmentedButtonItem text="11:30 AM" />
+											<SegmentedButtonItem text="02:30 PM" />
+										</items>
+									</SegmentedButton>
+								</l:BlockLayoutCell>
+							</l:BlockLayoutRow>
+
+
+						</l:BlockLayout>
+					</l:BlockLayoutCell>
+					<l:BlockLayoutCell width="25%"
+						backgroundColorSet="ColorSet9" backgroundColorShade="ShadeA">
+						<l:BlockLayoutCell backgroundColorSet="ColorSet6"
+							backgroundColorShade="ShadeA">
+							<Text text="Let's play Cricket" />
+						</l:BlockLayoutCell>
+						<l:BlockLayoutCell class="sapUiSmallMarginTop"
+							backgroundColorSet="ColorSet6" backgroundColorShade="ShadeA">
+							<Text text="Ye.. Cricket Ka keeda hi" />
+						</l:BlockLayoutCell>
+						<l:BlockLayoutCell class="sapUiSmallMarginTop"
+							backgroundColorSet="ColorSet6" backgroundColorShade="ShadeA">
+							<Text text="Passion of Cricket" />
+						</l:BlockLayoutCell>
+
+					</l:BlockLayoutCell>
+
+
+
+				</l:BlockLayoutRow>
+			</l:BlockLayout>
+
+		</content>
+	</Page>
+</core:View>
